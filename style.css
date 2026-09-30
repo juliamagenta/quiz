@@ -1,1 +1,85 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+    text-align: center;
+}
+
+#inicio {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.alternativa {
+    list-style: none;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Classe usada no mouseover */
+.destacada {
+    background-color: #d9d9d9;
+}
+
+/* Resposta correta */
+.correta {
+    background-color: green;
+    color: white;
+}
+
+/* Resposta incorreta */
+.incorreta {
+    background-color: red;
+    color: white;
+}
+
+.escondido {
+    display: none;
+}
+
+#placar {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
