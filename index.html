@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Quiz Técnico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+    <div class="container">
+
+        <h1 id="titulo">Mini Quiz Técnico</h1>
+
+        <div id="inicio">
+            <label for="nome">Digite seu nome:</label>
+            <input type="text" id="nome" placeholder="Seu nome">
+
+            <button id="btnIniciar" disabled>Iniciar Quiz</button>
+        </div>
+
+        <div id="quiz" class="escondido">
+
+            <p id="pergunta"></p>
+
+            <ul id="alternativas">
+                <li class="alternativa"></li>
+                <li class="alternativa"></li>
+                <li class="alternativa"></li>
+            </ul>
+
+            <button id="btnProxima">Próxima questão</button>
+
+            <p id="placar"></p>
+
+        </div>
+
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
